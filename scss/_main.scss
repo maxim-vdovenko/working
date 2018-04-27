@@ -1,0 +1,40 @@
+* {
+     @include sizing();
+     margin: 0px; 
+     padding: 0px;
+     outline:none;
+    -webkit-appearance: none;
+}
+
+body{
+     background-color: $fonColor;
+     color: $color_main;
+}
+html, body {
+     height: 100%;
+}
+
+input, textarea, select, button {
+     outline: none;
+}
+form {
+     @include block();
+}
+img {
+     @include inline_block(); 
+     border: none; 
+}
+a {
+     @include inline_block(); 
+     text-decoration: none;
+}
+
+
+.total-container {
+     @include block();
+     max-width: 820px;
+     min-width: 320px;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 50px 0px;
+}

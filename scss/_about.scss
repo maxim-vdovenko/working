@@ -1,0 +1,45 @@
+.about {
+     @include block();
+
+    // left: -20px;
+     
+     
+     &__title {
+          @include block();
+          padding: 0px 10px;
+          margin-bottom: 11px;
+          
+          h1, h2 {
+               @include block();
+               font-family: GothamPro, sans-serif;
+               font-size: 40px;
+               font-weight: 900;
+               line-height: 60px;
+               color: $color_main;
+               
+               @media (max-width: $screen_xs) {
+                    font-size: 28px;
+                    line-height: 34px;
+               }
+          }
+     }
+     
+     &__text {
+          @include block();
+          padding: 0px 11px;
+          
+          p {
+               @include block();
+               margin-bottom: 16px;
+               font-family: GothamPro, sans-serif;
+               font-size: 14px;
+               font-weight: 400;
+               line-height: 24px;
+               color: $color_main;
+               
+               @media (max-width: $screen_xs) {
+                    font-size: 13px;
+               }
+          }
+     }
+}
