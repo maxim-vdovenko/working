@@ -1,9 +1,6 @@
 .about {
      @include block();
 
-    // left: -20px;
-     
-     
      &__title {
           @include block();
           padding: 0px 10px;
