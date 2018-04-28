@@ -1,16 +1,13 @@
 .about {
-     position: relative;
-     display: block;
+     @include block();
 
      &__title {
-          position: relative;
-          display: block;
+          @include block();
           padding: 0px 10px;
           margin-bottom: 11px;
           
           h1, h2 {
-               position: relative;
-               display: block;
+               @include block();
                font-family: GothamPro, sans-serif;
                font-size: 40px;
                font-weight: 900;
@@ -25,13 +22,11 @@
      }
      
      &__text {
-          position: relative;
-          display: block;
+          @include block();
           padding: 0px 11px;
           
           p {
-               position: relative;
-               display: block;
+               @include block();
                margin-bottom: 16px;
                font-family: GothamPro, sans-serif;
                font-size: 14px;

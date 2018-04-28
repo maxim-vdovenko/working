@@ -1,0 +1,39 @@
+.tags {
+     @include block();
+     padding-top: 25px;
+     border-top: 1px solid #DCDCE0;
+     
+     &__title {
+          @include block();
+          font-family: GothamPro, sans-serif;
+          font-size: 12px;
+          font-weight: 700;
+          line-height: 16px;
+          text-transform: uppercase;
+          color: $color_main;
+          opacity: 0.5;
+     }
+     
+     &__block {
+          @include inline_block();
+          width: 100%;
+          margin-top: 7px;
+     }
+     
+     &__box {
+          @include inline_block();
+          float: left;
+          height: 28px;
+          margin: 0px 10px 6px 0px;
+          padding: 6px 8px 0px 8px;
+          border-radius: 3px;
+          border: 1px solid rgba(23,22,34, 0.6);
+          font-family: GothamPro, sans-serif;
+          font-size: 10px;
+          font-weight: 600;
+          line-height: 15px;
+          text-transform: uppercase;
+          color: $color_main;
+          opacity: 0.5;
+     }
+}

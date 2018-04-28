@@ -1,0 +1,30 @@
+.tell {
+     @include block();
+     margin-bottom: 39px;
+     
+     &__title {
+          @include block();
+          margin-bottom: 19px;
+          font-family: GothamPro, sans-serif;
+          font-size: 20px;
+          font-weight: 900;
+          line-height: 28px;
+          color: $color_main;
+          
+          @media (max-width: $screen_sm) {
+               font-size: 18px;
+               line-height: 26px;
+          }
+          @media (max-width: $screen_xs) {
+               margin-bottom: 12px;
+               font-size: 15px;
+               line-height: 20px;
+          }
+     }
+     
+     .social-networks {
+          @media (max-width: $screen_xs) {
+               margin: 0px 0px;
+          }
+     }
+}
