@@ -1,5 +1,16 @@
 .rules {
      @include block();
+     width: 840px;
+     min-width: 320px;
+     margin-left: auto;
+     margin-right: auto;
+
+     @media (max-width: $screen_lg) {
+          width: $screen_sm;
+     }
+     @media (max-width: $screen_sm) {
+          width: auto;
+     }
      
      &__title {
           @include block();

@@ -3,7 +3,7 @@
      
      &-cont {
           @include block();
-          max-width: $screen_md;
+          max-width: 960px;
           margin: auto auto 0px auto;
           padding: 40px 15px 50px 15px;  
           

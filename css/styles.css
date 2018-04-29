@@ -58,9 +58,6 @@ a {
 .total-container {
   position: relative;
   display: block;
-  max-width: 820px;
-  margin-left: auto;
-  margin-right: auto;
   padding: 50px 0px; }
 
 .icon {
@@ -195,7 +192,17 @@ a {
 .about {
   position: relative;
   display: block;
-  text-align: left; }
+  text-align: left;
+  width: 840px;
+  min-width: 320px;
+  margin-left: auto;
+  margin-right: auto; }
+  @media (max-width: 1440px) {
+    .about {
+      width: 768px; } }
+  @media (max-width: 768px) {
+    .about {
+      width: auto; } }
   .about__title {
     position: relative;
     display: block;
@@ -365,7 +372,7 @@ a {
     position: relative;
     display: block;
     text-align: left;
-    max-width: 980px;
+    max-width: 960px;
     margin: auto auto 0px auto;
     padding: 40px 15px 50px 15px; }
     @media (max-width: 768px) {
@@ -885,7 +892,17 @@ a {
 .rules {
   position: relative;
   display: block;
-  text-align: left; }
+  text-align: left;
+  width: 840px;
+  min-width: 320px;
+  margin-left: auto;
+  margin-right: auto; }
+  @media (max-width: 1440px) {
+    .rules {
+      width: 768px; } }
+  @media (max-width: 768px) {
+    .rules {
+      width: auto; } }
   .rules__title {
     position: relative;
     display: block;
