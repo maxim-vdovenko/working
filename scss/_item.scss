@@ -9,6 +9,7 @@
           
           img {
                @include inline_block();
+               width: 100%;
           }
      }
      

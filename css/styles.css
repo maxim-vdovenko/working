@@ -1018,7 +1018,8 @@ a {
       position: relative;
       display: inline-block;
       vertical-align: top;
-      text-align: left; }
+      text-align: left;
+      width: 100%; }
   .item__info {
     position: relative;
     display: block;
